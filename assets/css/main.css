@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #ff0080;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #ff0080 15%, #660033 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg,#ff0080 15%, #660033 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #ff0080 15%, #660033 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #ff0080 15%, #660033 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,7 +120,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #ff0080;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -3001,13 +3001,13 @@ input, select, textarea {
 			display: inline-block;
 			margin-left: 4em;
 			padding: 0.65em;
-			border-radius: 100%;
+			/* border-radius: 100%; */
 			border: solid 1px;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
+				/* border-radius: 100%; */
 				width: 16em;
 			}
 
@@ -3087,6 +3087,8 @@ input, select, textarea {
 
 		#header.alt {
 			padding: 7em 5em 4em 5em ;
+			width: 50%;
+			margin: 0 auto;
 		}
 
 			#header.alt h1 {
@@ -3121,7 +3123,8 @@ input, select, textarea {
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
-					max-width: 75%;
+					max-width: 50%;
+					border-radius: 20%;
 				}
 
 		@media screen and (max-width: 1280px) {
